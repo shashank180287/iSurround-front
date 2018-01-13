@@ -2,18 +2,18 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-/*  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'] */
+  templateUrl: './app.component.html',
+/*  styleUrls: ['./app.component.css'] */
   styles: [`
     agm-map {
-      height: 300px;
+      height: 500px; /*300px;*/
     }
   `],
-  template: `
+ /* template: `
   <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom" >
   	<agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
   </agm-map>
-  `
+  `*/
 })
 export class AppComponent implements OnInit {
 	ngOnInit() {
